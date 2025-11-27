@@ -17,3 +17,6 @@ Thumbs.db
 *.swo
 .vscode/
 .idea/
+
+# Knowledge base
+knowledge/
