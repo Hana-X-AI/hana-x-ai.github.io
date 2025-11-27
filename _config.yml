@@ -1,0 +1,42 @@
+# Site settings
+title: Hana X AI
+description: Personal portfolio and projects
+baseurl: ""
+url: "https://hana-x-ai.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Theme (using minima as base, can customize later)
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Social links (customize these)
+social:
+  github: Hana-X-AI
+
+# Collections for projects
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
