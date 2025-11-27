@@ -19,4 +19,13 @@ Thumbs.db
 .idea/
 
 # Knowledge base
-knowledge/
+x-knowledge/
+
+# Planning
+x-planning/
+
+# Learning/POC projects
+x-learning/
+
+# Session summaries
+x-sessions/
